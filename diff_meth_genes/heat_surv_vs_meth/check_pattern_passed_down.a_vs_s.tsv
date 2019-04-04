@@ -1,0 +1,15 @@
+Comparison	Tau (genome-wide)	Tau (all genes in analysis)	Tau (genes with strong corr)
+A1-F vs. S1-F	0.65353	0.70448	0.71198
+A2-F vs. S2-F	0.62549	0.68319	0.68614
+A3-F vs. S3-F	0.65912	0.70783	0.71628
+A4-F vs. S4-F	0.62547	0.6862	0.68678
+A5-AD vs. S5-AD	0.64243	0.68837	0.69502
+A6-AD vs. S6-AD	0.66813	0.70612	0.7191
+A7-AD vs. S7-AD	0.66046	0.70604	0.71721
+A8-AD vs. S8-AD	0.64857	0.69944	0.70722
+Mean	0.6479	0.69771	0.70497
+Standard error	0.00561	0.00359	0.00485
+Paired t-test, genome-wide vs. genes with strong corr	7.7438935678511e-10
+Paired t-test, all genes vs. genes with strong corr	0.0014
+Methylated positions	1417049	328174	24023
+# genes	N/A	8011	541
