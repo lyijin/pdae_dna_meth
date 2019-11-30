@@ -48,7 +48,7 @@ As homozygous reference calls ("0") could also mean the inability to call het/ho
 
 ``for a in dedup_bams/*.sorted.bam; do b=`echo $a | sed 's/dedup_bams/depths_at_snp_loci/' | sed 's/sorted.bam/tsv/'` && samtools depth ${a} -b tabulated_genotypes.bed -d 0 > $b & done; wait``
 
-The post-coverage filtering table is available here as well (``tabulated_genotypes.cov10-100.tsv.gz``), and these positions are used to plot graphs, calculate F\ :sub:`ST` values, etc.
+The post-coverage filtering table is available here as well (``tabulated_genotypes.cov10-100.tsv.gz``); however, for statistics e.g. scripts in the ``../calc_indiv_fst/`` folder and graph plotting, ``filter_adult_sperm_snps.py`` was written to filter out non-larval SNPs (longer explanation in the script itself), producing the file ``tabulated_genotypes.cov10-100.AS.annot.tsv.gz`` ("AS" = "adult, sperm").
 
 Plotting code
 -------------

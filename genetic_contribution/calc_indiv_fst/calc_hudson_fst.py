@@ -3,7 +3,7 @@
 """
 > calc_hudson_fst.py <
 
-Based on the output of pick_consistent_pos.py, calculate the numerators and
+Based on the output of BisSNP analysis, calculate the numerators and
 denominators of Hudson's Fst (as formulated by Bhatia et. al, 2013) 
 for every consistent position.
 
