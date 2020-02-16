@@ -5,7 +5,7 @@ Intergenerational epigenetic inheritance in reef-building corals
 .. image:: https://zenodo.org/badge/122317576.svg
    :target: https://zenodo.org/badge/latestdoi/122317576
 
-bioRxiv link to manuscript: https://www.biorxiv.org/content/early/2018/02/21/269076.full.pdf
+This has been published in *Nature Climate Change*--huzzah! Link to paper: https://www.nature.com/articles/s41558-019-0687-2
 
 Disclaimer
 ----------
